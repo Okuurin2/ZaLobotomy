@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #121212;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li img {
+    height: auto;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .riotgames{
+    width: 150px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 75px;
+  }
+  
+  li {
+    margin: 0 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .separator {
+    height: 90%;
+    width: 2px;
+    background-color: white;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    height: 100%;
+    font-size: 24px;
+    font-family:"Spiegal Sans";
+  }
+
+  li a:hover {
+    color: #FD4556;
+    text-decoration: none;
+  }
+
+  .LogIn {
+    background-color: #FD4556;
+    color: white;
+    font-size: 20px;
+    font-family: "Spiegal Sans";
+    font-weight: normal;
+    padding: 5px 50px;
+    border-radius: 10px;
+  }
