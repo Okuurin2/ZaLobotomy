@@ -1,0 +1,223 @@
+body{
+    font-family: "Spiegal Sans";
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.login-container {
+    text-align: center;
+    background-color: #121212;
+    width: 35%;
+    height: 550px;
+  }
+
+  h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #292929;
+    outline: transparent;
+    border: transparent;
+    color: #ffffff;
+  }
+
+  input:hover{
+    background-color: #393939;
+  }
+  
+  button {
+    margin-top: 10%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+.loginForm{
+  display: flex;
+}
+
+.riotgames{
+    margin: 5% 5% 0 5%;
+}
+
+.stay{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.stay input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #292929;
+    border-radius: 5px;
+  }
+
+  .stay:hover input ~ .checkmark {
+    background-color: #393939;
+  }
+
+  .stay input:checked ~ .checkmark {
+    background-color: #c32333;
+    border: 2px solid #FD4556;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .stay input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    left: 7px;
+    top: 1px;
+    width: 8px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.buttoncon{
+    width: 84%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tpb{
+    width: 90px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tpb img{
+    height: 20px;
+    width: auto;
+}
+
+.facebook{
+    background-color: #0866FF ;
+}
+
+.apple{
+    background-color: black;
+}
+
+.xbox{
+    background-color: #107C10;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    background-image: url(../imgs/login/valbackground.jpg);
+}
+
+a {
+    color:rgb(183, 183, 183);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.helpcon{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: 25%;
+    margin-top: 2%;
+}
+
+.login{
+    background-color: #FD4556;
+    outline: none;
+    border: none;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login:hover{
+    background-color: #ed2438;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+}
+
+#error{
+  color:white;
+  opacity: 0%;
+}
+
+.visible{
+  font-size: 20px;
+  opacity: 1;
+}

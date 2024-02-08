@@ -24,19 +24,17 @@
     padding: 0;
     display: flex;
     align-items: center;
-    height: 75px;
+    justify-content: center;
+    height: auto;
   }
   
   li {
     margin: 0 15px;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .separator {
-    height: 90%;
+    height: 60px;
     width: 2px;
     background-color: white;
   }
@@ -47,12 +45,17 @@
     font-weight: normal;
     height: 100%;
     font-size: 24px;
+    width: 100px;
     font-family:"Spiegal Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   li a:hover {
     color: #FD4556;
     text-decoration: none;
+    transition: background-color .5s, color .5s;
   }
 
   .LogIn {
@@ -60,7 +63,34 @@
     color: white;
     font-size: 20px;
     font-family: "Spiegal Sans";
-    font-weight: normal;
-    padding: 5px 50px;
-    border-radius: 10px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    border:none
+  }
+
+  .LogIn:hover{
+    background-color: #fafafa;
+  }
+
+  .Username{
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 20px;
+    font-family: "Spiegal Sans";
+    font-weight: bold;
+    padding: 6px 75px;
+    border-radius: 15px;
+    outline: none;
+    border:none
+  }
+
+  .Username:hover{
+    background-color: #252525;
+  }
+
+  .navright{
+    height: 100%;
   }

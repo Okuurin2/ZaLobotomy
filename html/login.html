@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kingdom Laboratories</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/login.css" rel="stylesheet" type="text/css" />
+    <link href="../css/nav.css" rel="stylesheet" type="text/css" />
+    <link href="../css/fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/3bed38f8a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background"> </div>
+    <div class="top">
+        <img src="../imgs/main/riotgames.png" class="riotgames">
+    </div>
+    <main>
+        <div class="login-container">
+            <h3> Sign In</h3>
+            <div id="error">
+            </div>
+            <form id="loginForm">
+                <input type="text" id="username" name="username" required placeholder="USERNAME">
+                <input type="password" id="password" name="password" required placeholder="PASSWORD">
+                <div class="buttoncon">
+                    <button type="button" href="#" class="tpb facebook"> <img src="../imgs/login/facebook.png"> </button>
+                    <button type="button" href="#" class="tpb google"> <img src="../imgs/login/google.png"> </button>
+                    <button type="button" href="#" class="tpb apple"> <img src="../imgs/login/apple.png"> </button>
+                    <button type="button" href="#" class="tpb xbox"> <img src="../imgs/login/xbox.png"> </button>
+                </div>
+                <label class="stay"> Stay signed in
+                    <input type="checkbox" id="rememberMe" name="rememberMe"> 
+                    <span class="checkmark"></span>
+                </label>
+
+              <a href="../html/stats.html" class="login"> <svg xmlns="http://www.w3.org/2000/svg" height="30" width="25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg> </a>
+            </form>
+            <div class="helpcon">
+                <a href="#"> CAN'T SIGN IN?</a>
+                <a href="#"> CREATE ACCOUNT</a>
+            </div>
+          </div>
+    </main>
+    <div>
+
+    </div>
+    <script src="../js/login.js"> </script>
+</body>
+</html>

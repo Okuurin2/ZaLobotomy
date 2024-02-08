@@ -1,3 +1,351 @@
-h1 {
+body{
+  background-color: #121212;
+}
+
+.homeep8{
+    width: 100%;
+}
+
+img {
+    border: none;
+  }
+
+.titlecard1{
+    height: 400px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+h1{
     font-family: "Valorant";
 }
+
+h2{
+    font-family: "Tungsten";
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.titlecard1 img{
+    height: auto;
+    width: 700px;
+    z-index: 2;
+}
+
+.shiftedtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.toptext{
+    color:transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 125px;
+    margin-right: 800px;
+    width: 500px;
+    position: absolute;
+}
+
+.bottomtext{
+    color:transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-top: 150px;
+    margin-right: 400px;
+    position: absolute;
+}
+
+.thing{
+    background-color: white;
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    margin: 300px 600px 0 0;
+}
+
+.titlecard2{
+    height: 600px;
+    display: flex;
+    background: linear-gradient(to bottom right, #33123A, #1A0B35);
+    justify-content: center;
+}
+
+.centercon{
+    width:65%;
+    margin-top:2%;
+}
+
+.textcon{
+    width: 70%;
+    display: flex;
+    position: relative;
+}
+
+.titletext{
+    font-family: "Tungsten";
+    font-weight: 900;
+    color: #E94D87;
+    font-size: 100px;
+    position: absolute;
+    line-height: 100px;
+    margin-top: 40px;
+}
+
+.bodytext{
+    font-family: "DIN Next";
+    color:white;
+    font-size: 20px;
+}
+
+.shifttext{
+    position: absolute;
+    width: 60%;
+    margin-top: 250px;
+}
+
+.imagecon{
+    height: 300px;
+    width: 550px;
+    margin: 150px 0 0 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.imagecon img{
+    margin-top: 15px;
+    height: 270px;
+    width: 550px;
+    background-color: #6a6487;
+}
+
+.imagedeco{
+    height: 15px;
+    width: 150px;
+    background-color: #371DBF;
+    position: absolute;
+}
+
+.right{
+    top: 0;
+    right: 0;
+}
+
+.left{
+    bottom: 0;
+    left: 0;
+}
+
+.bgval{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8C6FE7;
+    opacity: 50%;
+    transform: rotate(270deg);
+    position: absolute;
+    margin-right: 1100px;
+    font-size: 250px;
+}
+
+.popup{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform .5s;
+  }
+  
+  .popup.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .titlecard3{
+    background-color: #110833;
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
+  .rightcon{
+    width: 50%;
+  }
+
+  .titlecon{
+    position:relative;
+    margin-top: 10%;
+  }
+
+  .contract{
+    color:transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9C7CFF;
+    position:absolute;
+  }
+
+  .title2{
+    opacity: 25%;
+    margin-top: 100px;
+  }
+
+  .title3{
+    opacity: 10%;
+    margin-top: 200px;
+  }
+
+  .bodyheader{
+    font-size: 24px;
+    font-family: "DIN Next";
+    color:white;
+    margin-top: 35%;
+    position: absolute;
+  }
+
+  .leftcon {
+    width: 40%;
+    height: 100%;
+    background-color: #E94D87;
+    z-index: 2;
+  }
+
+  .shiftext{
+    margin-top: 45%;
+    position: absolute;
+  }
+
+  .background{
+    opacity: 25%;
+    position: absolute;
+    height: auto;
+    width: 900px;
+  }
+
+  .titlecard4{
+    height: 250px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  h3{
+    font-family: "DIN Next";
+    color: white;
+  }
+
+  .loginbutton {
+    background-color: #FD4556;
+    color: white;
+    font-size: 20px;
+    font-family: "Spiegal Sans";
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 15px;
+    outline: none;
+    border:none;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .loginbutton:hover{
+    color: #FD4556;
+    background-color:white;
+    text-decoration: none;
+    transition: background-color .5s, color .5s;
+  }
+
+  .dwnldtxt{
+    font-family: "Spiegal Sans";
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .dwnldtxt:hover{
+    background-color:#121212;
+    color: white;
+    text-decoration: none;
+    transition: background-color .5s, color .5s;
+  }
+
+  footer{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0 50px;
+  }
+
+  .bottom{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logocon{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  .logocon img{
+    height: 50px;
+    width: auto;
+  }
+
+  .infocon{
+    color:white;
+    font-family: "Spiegal Sans";
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linkcon{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+
+  .infotext{
+    text-align: center;
+    margin-top: 10px;
+    color:gray
+  }
+
+  .linkcon a{
+    color:white;
+    padding: 5px 10px;
+    border-radius: 15%;
+  }
+
+  .linkcon a:hover {
+    color: #FD4556;
+    background-color: #181818;
+    text-decoration: none;
+    transition: background-color .5s, color .5s;
+  }
+
+  .linething{
+    height: 10px;
+    background-color: #E94D87;
+    outline: none;
+    margin: 0;
+  }
