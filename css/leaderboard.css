@@ -1,0 +1,197 @@
+body {
+    background-color: #121212;
+    width: 100%;
+  }
+  
+  .banner {
+    width: 100%;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  h1 {
+    font-family: "Tungsten";
+    font-weight: 900;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top {
+    display: flex;
+    background-image: url(../imgs/stats/thingidk-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .titlecon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 35%;
+    margin: 140px 0 0 100px;
+    height: 160px;
+  }
+  
+  .title {
+    color: #E94D87;
+    font-size: 100px;
+  }
+  
+  #tag {
+    font-family: "DIN Next";
+    color: #9FD8EA;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-bottom: 70px;
+  }
+  
+  table{
+    color: white;
+    font-family: "DIN Next";
+    width: 100%;
+  }
+
+  tr{
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+  }
+
+  td, th{
+    height: 75px;
+    display: flex;
+    align-items: center;
+  }
+
+  td:nth-child(1),th:nth-child(1) {
+    width: 75px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  td:nth-child(2),th:nth-child(2) {
+    width: 75px;
+    text-align: center;
+  }
+
+    td:nth-child(3),th:nth-child(3) {
+    width: 450px;
+  }
+
+  td:nth-child(n+4),th:nth-child(n+4) {
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #0b0521;
+  }
+
+  .header {
+    border-bottom: #371DBF solid 2px;
+  }
+
+  .header th{
+    background-color: #110833;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  #leaderboard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #121212, #110833);
+    height: auto;
+    padding-bottom: 100px;
+    margin-top: 25px;
+  }
+
+  #userlist{
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid #371DBF;
+    background-color: #110833;
+    border-radius: 15px;
+  }
+
+  #you{
+    background-color: #1b0f46;
+    border-top: #371DBF solid 1px;
+    border-bottom: #371DBF solid 1px;
+  }
+
+  .hidden{
+    border: none;
+    color: transparent;
+  }
+
+  .linething{
+    background-color: #E94D87;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .username{
+    color: white;
+    text-decoration: none;
+  }
+
+  .tag{
+    color: #9FD8EA;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  div a:hover{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .playercard{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: #FFFFFF solid 2px;
+    background-position: 0% 0%;
+  }
+
+  .rank{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+
+  .trapezoid {
+    font-family: "Tungsten";
+    font-size: 48px;
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+    position: absolute;
+    margin-bottom: 2px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titlethingidk{
+    width: 100%;
+    position: relative;
+  }

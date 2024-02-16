@@ -34,24 +34,60 @@
     <div class="form" id="add-user">
 		<form id="add-user-form">
 			<div class="form-group">
-				<label for="username">Username</label>
+				<label for="user-username">Username (Max 16 Chars)</label>
             <input type="text" id="user-username" class="form-control" required>
           </div>
         <div class="tag">
-          <label for="user-cls">Tag</label>
+          <label for="user-tag">Tag (Max 5 Chars)</label>
           <input type="text" id="user-tag" class="form-control" required>
         </div>
           <div class="form-group">
             <label for="user-rank">Rank</label>
-            <input type="text" id="user-rank" class="form-control" required>
+            <select id="user-rank" class="form-control" required>
+              <option value="U">Unranked</option>
+              <option value="I1">Iron 1</option>
+              <option value="B1">Bronze 1</option>
+              <option value="S2">Silver 2</option>
+              <option value="G1">Gold 1</option>
+              <option value="G2">Gold 2</option>
+              <option value="G3">Gold 3</option>
+              <option value="P2">Platinum 2</option>
+              <option value="P2">Platinum 3</option>
+              <option value="D1">I'm Diamond 1</option>
+              <option value="D2">Diamond 2</option>
+              <option value="A2">Ascendant 2</option>
+              <option value="A3">Ascendant 3</option>
+              <option value="Im1">Immortal 1</option>
+              <option value="Im3">Immortal 3</option>
+              <option value="R">Radiant</option>
+            </select> 
           </div>
         <div class="form-group">
           <label for="user-playercard">Player Card</label>
-          <input type="text" id="user-playercard" class="form-control" required>
+          <select id="user-playercard" class="form-control" required>
+            <option value="ArcaneCard">Arcane Card</option>
+            <option value="AstraCard">Astra Card</option>
+            <option value="BreezeCard">Breeze Card</option>
+            <option value="ChamberCard">Chamber Card</option>
+            <option value="CypCard">Cypher Card</option>
+            <option value="ValCard">Default Card</option>
+            <option value="FadeCard">Fade Card</option>
+            <option value="KuroCard">Kuronami Card</option>
+            <option value="IsoCard">IsoCard</option>
+            <option value="NoLimitsCard">NoLimits Card</option>
+            <option value="PenguinCard">Penguin Card</option>
+            <option value="SovaCard">Sova Card</option>
+            <option value="SunsetCard">Sunset Card</option>
+            <option value="YoruCard">Yoru Card</option>
+          </select> 
         </div>
           <div class="form-group">
             <label for="user-wins">Wins</label>
             <input type="number" id="user-wins" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="user-losses">Losses</label>
+            <input type="number" id="user-losses" class="form-control" required>
           </div>
         <div class="form-group">
           <label for="user-hrs">Hours</label>
@@ -70,7 +106,7 @@
             <input type="number" step="0.01" id="user-hsr" class="form-control" required>
           </div>
 
-          <input type="submit" value="Send" class="btn btn-primary" id="user-submit">
+          <input type="button" value="Send" class="btn btn-primary" id="user-submit" >
       </form>
     </div>
         <div class="tablecon">
@@ -82,6 +118,8 @@
                 <th>Rank</th>
                 <th>Player_Card</th>
                 <th>Wins</th>
+                <th>Losses</th>
+                <th>Win Rate</th>
                 <th>Hours</th>
                 <th>KDA</th>
                 <th>ACS</th>

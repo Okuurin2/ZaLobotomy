@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="background"> </div>
+    <div class="overlay"></div>
     <div class="top">
         <img src="../imgs/main/riotgames.png" class="riotgames">
     </div>
@@ -19,6 +20,7 @@
         <div class="login-container">
             <h3> Sign In</h3>
             <div id="error">
+                Your username or password may be incorrect, or you may need to update to a Riot Account if you haven’t played in a few months. Check the Can’t sign in link for more info.
             </div>
             <form id="loginForm">
                 <input type="text" id="username" name="username" required placeholder="USERNAME">
@@ -34,7 +36,7 @@
                     <span class="checkmark"></span>
                 </label>
 
-              <a href="../html/stats.html" class="login"> <svg xmlns="http://www.w3.org/2000/svg" height="30" width="25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg> </a>
+              <button href="../html/stats.html" type = "button" class="login" onclick="login()"> <svg xmlns="http://www.w3.org/2000/svg" height="30" width="25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg> </button>
             </form>
             <div class="helpcon">
                 <a href="#"> CAN'T SIGN IN?</a>
@@ -42,6 +44,15 @@
             </div>
           </div>
     </main>
+    <div class="bottom">
+        <div class="linkcon">
+            <a href="#">SUPPORT</a>
+            <a href="#">PRIVATE NOTICE</a>
+            <a href="#">TERM OF SERVICE</a>
+            <a href="#">COOKIES PREFERENCES</a>
+        </div>
+        <div> THIS SITE IS PROTECTED BY HCAPTCHA AND ITS PRIVACY POLICY AND TERMS OF SERVICE APPLY. </div>
+    </div>
     <div>
 
     </div>

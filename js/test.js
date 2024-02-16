@@ -1,19 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const APIKEY = "65c8c60e229ae04bccd9a31b";
+    const APIKEY = "65ccaa6fa1d768023d02abe1";
     const link = "https://kingdomlabs-0978.restdb.io/rest/userdatas"
     getContacts();
 
     document.getElementById("user-submit").addEventListener("click", function (e) {
+    console.log("pressed")
     let username = document.getElementById("user-username").value;
     let tag = document.getElementById("user-tag").value;
     let rank = document.getElementById("user-rank").value;
     let playercard = document.getElementById("user-playercard").value;
     let wins = document.getElementById("user-wins").value;
+    let losses = document.getElementById("user-losses").value;
     let hours = document.getElementById("user-hrs").value;
     let kda = document.getElementById("user-hrs").value;
     let acs = document.getElementById("user-acs").value;
     let hsr = document.getElementById("user-hsr").value;
+
+    if (tag.length < 6 && username.length<17) {
 
     let jsondata = {
         "Username": username,
@@ -21,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Rank": rank,
         "Player_Card": playercard,
         "Wins": wins,
+        "Losses": losses,
         "Hours": hours,
         "KDA": kda,
         "ACS": acs,
@@ -51,7 +56,16 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("user-submit").disabled = false;
         getContacts();
       });
-    });
+    }
+    else{
+      if (username.length > 16){
+        console.log("Username is too long")
+      }
+      if (tag.length > 5){
+        console.log("Tag is too long")
+      }
+    }
+  });
 
 function getContacts(limit = 10, all = true) {
 
@@ -81,6 +95,8 @@ function getContacts(limit = 10, all = true) {
           <td>${response[i].Rank}</td>
           <td>${response[i].Player_Card}</td>
           <td>${response[i].Wins}</td>
+          <td>${response[i].Losses}</td>
+          <td>${response[i].WinRate}</td>
           <td>${response[i].Hours}</td>
           <td>${response[i].KDA}</td>
           <td>${response[i].ACS}</td>

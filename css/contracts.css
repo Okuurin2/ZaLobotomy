@@ -1,0 +1,54 @@
+body {
+    background-color: #121212;
+    width: 100%;
+  }
+  
+  .banner {
+    width: 100%;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  h1 {
+    font-family: "Tungsten";
+    font-weight: 900;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top {
+    display: flex;
+    background-image: url(../imgs/stats/thingidk-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .titlecon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 35%;
+    margin: 140px 0 0 100px;
+    height: 160px;
+  }
+  
+  .title {
+    color: #a86fff;
+    font-size: 100px;
+  }
+
+  .linething{
+    background-color: #a86fff;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+  }

@@ -31,18 +31,551 @@
             </ul>
         </div>
     </nav>
-    <div class="top">
+    <div class="banner">
         <div class="namecon">
             <h1 id="username">Okuurin</h1>
-            <a id="tag"> #Test </a>
+            <a id="tag"> #東方2hu </a>
         </div>
     </div>
     <main>
         <div class="statscon">
             <div class="topstuff"> 
-                <div>
+                <div class="titlethingidk">
                     <div class="linething"> </div>
-                    <div> </div>
+                    <div class="trapezoid2" style="background-color: #E94D87; color: white; width: 350px; height: 60px;"> Performance </div>
+                </div>
+            </div>
+            <div class="mainstatscon">
+                <div class="playercon">
+                    <div class="crosshaircon">
+                        <div class="trapezoid" style="background-color: white; color: black; width: 150px; height: 35px; font-size: 24px;"> Crosshair </div>
+                        <img src="../imgs/stats/crosshair.png" alt="Crosshair" width="30px" height="30px">
+                        <div class="copy">
+                            <p class="copytext"> Copy Crosshair Code</p>
+                            <button class="copybutton"> <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#0c0c0c" d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accountcon">
+                    <div class="trapezoid" style="background-color: #E94D87; color: white; width: 150px; height: 40px; font-size: 28px;"> Account </div>
+                    <div class="rankcon">
+                        <div class="rank">
+                            <div class="rankimg">
+                                <img src="../imgs/valstuff/D1.png">
+                            </div>
+                            <div class="ranktext">
+                                <p class="ranktextthing"> Current Rating </p>
+                                <p class="ranktitle"> Diamond 1 </p>
+                                <p class="acttitle"> Episode 8: Act 1 </p>
+                            </div>
+                        </div>
+                        <div class="rank">
+                            <div class="rankimg">
+                                <img src="../imgs/valstuff/D2.png">
+                            </div>
+                            <div class="ranktext">
+                                <p class="ranktextthing"> Peak Rating </p>
+                                <p class="ranktitle"> Diamond 2 </p>
+                                <p class="acttitle"> Episode 7: Act 3 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="moreinfo"> 
+                        <p class="level"> Level 160 </p>
+                        <div class="winratecon">
+                            <div> 22 W </div>
+                            <div class="winratebar">
+                                <div class="bar"></div>
+                            </div>
+                            <div> 19 L </div>
+                        </div>
+                    </div>
+                    <div class="linething4"></div>
+                    <div class="mapcon">
+                        <p class="maptitle"> Top Maps</p>
+                        <div class="mainmap">
+                            <div class="mapheader"> 
+                                <p> Map</p>
+                                <p> WR </p>
+                            </div>
+                            <div class="map" style="background-image: url(../imgs/valstuff/ascent.jpg);background-size: cover;background-position: 0 17%;">
+                                <div class="overlay"> </div>
+                                <div class="overlay2"> </div>
+                                <p class="mapname"> ASCENT </p>
+                                <div class="mapstats">
+                                    <p class="winrate"> 100.0%</p>
+                                    <p class="WL"> 6W-0L</p>
+                                </div>
+                            </div>
+                            <div class="map" style="background-image: url(../imgs/valstuff/lotus.jpg);background-size: cover;background-position: 0 40%">
+                                <div class="overlay"> </div>
+                                <div class="overlay2"> </div>
+                                <p class="mapname"> LOTUS </p>
+                                <div class="mapstats">
+                                    <p class="winrate"> 66.6%</p>
+                                    <p class="WL"> 4W-2L</p>
+                                </div >
+                            </div>
+                            <div class="map" style="background-image: url(../imgs/valstuff/bind.jpg);background-size: cover;background-position: 0 30%">
+                                <div class="overlay"> </div>
+                                <div class="overlay2"> </div>
+                                <p class="mapname"> BIND </p>
+                                <div class="mapstats">
+                                    <p class="winrate"> 55.6%</p>
+                                    <p class="WL"> 5W-4L</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainstats">
+                    <div class="filtercon"> 
+                        <form>
+                            <label for="GameMode"> Game Mode:</label>
+                            <select id="GameMode">
+                                <option value="Competitive"> Competitive</option>
+                                <option value="Unrated"> Unrated</option>
+                                <option value="Deathmatch"> Deathmatch</option>
+                                <option value="TDM"> TDM</option>
+                                <option value="Escalation"> Escalation</option>
+                            </select>
+                            <label for="TimeFilter"> Time Frame:</label>
+                            <select id="TimeFilter">
+                                <option value="E8A1"> E8:A1</option>
+                                <option value="E7A3"> E7:A3</option>
+                                <option> E7:A2</option>
+                                <option> E7:A1</option>
+                                <option> E6:A3</option>
+                                <option> E6:A2</option>
+                                <option> E6:A1</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="overallcon">
+                        <div class="trapezoid" style="background-color: #371DBF; color: white; width: 300px; height: 40px; font-size: 28px;"> Overall Performance </div>
+                        <div class="topstats"> 
+                            <div class="maincon">
+                                <div class="textcon">
+                                    <div class="stattitle"> Average Combat Score </div>
+                                    <div id="ACSNumber" class="mainnumber"> 220 </div>
+                                </div>
+                                <div class="linething2"></div>
+                            </div>
+                            <div class="maincon">
+                                <div class="textcon">
+                                    <div class="stattitle"> Kill/Death Ratio </div>
+                                    <div id="KDRNumber" class="mainnumber"> 1.08 </div>
+                                </div>
+                                <div class="linething2"></div>
+                            </div>
+                            <div class="maincon">
+                                <div class="textcon">
+                                    <div class="stattitle"> Headshot Ratio </div>
+                                    <div id="HSRNumber" class="mainnumber"> 22.8% </div>
+                                </div>
+                                <div class="linething2"></div>
+                            </div>
+                            <div class="maincon">
+                                <div class="textcon">
+                                    <div class="stattitle"> Win Rate </div>
+                                    <div id="WRNumber" class="mainnumber"> 53.7% </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="otherstats">
+                            <div class="left">
+                                <div class="textcon2">
+                                    <div class="idktitle"> Total Playtime </div>
+                                    <div id="WRNumber" class="mainnumber"> 29 Hrs </div>
+                                </div>
+                                <div class="textcon2">
+                                    <div class="idktitle"> Total Matches </div>
+                                    <div id="MatchesNumber" class="mainnumber"> 41 </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="top">
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Wins </div>
+                                                <div id="WinsNumber" class="othernumber"> 22 </div>
+                                            </div>
+                                            <div class="info"> Top 58%</div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> First Bloods </div>
+                                                <div id="FBNumber" class="othernumber"> 35 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Kills/Round </div>
+                                                <div id="KPRNumber" class="othernumber"> 0.89 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Damage/Round </div>
+                                                <div id="DPRNumber" class="othernumber"> 152.9 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Kills </div>
+                                                <div id="KillNumber" class="othernumber"> 589 </div>
+                                            </div>
+                                            <div class="info"> Top 34%</div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Deaths </div>
+                                                <div id="DeathNumber" class="othernumber"> 483 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Assists </div>
+                                                <div id="AssistNumber" class="othernumber"> 197 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="othercon">
+                                        <div class="linething3"></div>
+                                        <div class="othertextcon">
+                                            <div class="textcon3">
+                                                <div class="stattitle"> Aces </div>
+                                                <div id="AceNumber" class="othernumber"> 2 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agentcon">
+                        <div class="trapezoid" style="background-color: #394DFF; color: white; width: 200px; height: 40px; font-size: 28px;"> Top Agents </div>
+                        <button class="agentbutton"> View All Agents</button>
+                        <div class="agents">
+                            <div class="agent">
+                                <div class="agentimg"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                <div class="agentinfo">
+                                    <div class="agenttitle"> 
+                                        <p class="agentname"> Cypher</p>
+                                        <p class="agentmatch"> 38 Matches</p>
+                                    </div>
+                                    <div class="agentstats"> 
+                                        <p> 27 hrs</p>
+                                        <p> WR: 53.3%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="agent">
+                                <div class="agentimg"> <img src="../imgs/valstuff/brimstone.png"> </div>
+                                <div class="agentinfo">
+                                    <div class="agenttitle"> 
+                                        <p class="agentname"> Brimstone</p>
+                                        <p class="agentmatch"> 2 Matches</p>
+                                    </div>
+                                    <div class="agentstats"> 
+                                        <p> 1.3 hrs</p>
+                                        <p> WR: 50.0%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="agent">
+                                <div class="agentimg"> <img src="../imgs/valstuff/fade.png"> </div>
+                                <div class="agentinfo">
+                                    <div class="agenttitle"> 
+                                        <p class="agentname"> Fade</p>
+                                        <p class="agentmatch"> 1 Matches</p>
+                                    </div>
+                                    <div class="agentstats"> 
+                                        <p> 0.6 hrs</p>
+                                        <p> WR: 0.0%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="matchcon">
+                <div style="height: 60px;position:relative;">
+                    <div class="trapezoid" style="background-color: #CA3E6D; color: white; width: 500px; height: 60px; font-size: 48px;"> Match History </div>
+                </div>
+                <div id="matches">
+                    <div class="daycon">
+                        <div class="datecon">
+                            Feb 2, 2024
+                        </div>
+                        <div class="matches">
+                            <div class="match">
+                                <div class="leftside">
+                                    <div class="wonoverlay"> </div>
+                                    <div class="linething5" style="background-color:#90FF9B"> </div>
+                                    <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                    <div class="matchmapname"> Ascent </div>
+                                    <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                    <div class="scorecon"> 
+                                        <div class="score">
+                                            <span class="ally">13</span> <span class="colon">:</span> <span class="enemy">8</span>
+                                        </div>
+                                        <div class="placement" style="background-color: #49212E;">
+                                            4th
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rightside">
+                                    <div class="statcon">
+                                        <p class="statname">K/D/A</p>
+                                        <p class="stat">18/14/5</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">K/D</p>
+                                        <p class="stat" style="color:#90FF9B">1.28</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ACS</p>
+                                        <p class="stat">224</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ADR</p>
+                                        <p class="stat">152</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">HS%</p>
+                                        <p class="stat">23.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="match">
+                                <div class="leftside">
+                                    <div class="linething5" style="background-color:#FC5C5C"> </div>
+                                    <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                    <div class="matchmapname"> Icebox </div>
+                                    <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                    <div class="scorecon"> 
+                                        <div class="score">
+                                            <span class="ally">6</span> <span class="colon">:</span> <span class="enemy">13</span>
+                                        </div>
+                                        <div class="placement" style="background-color: #49212E;">
+                                            8th
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rightside">
+                                    <div class="statcon">
+                                        <p class="statname">K/D/A</p>
+                                        <p class="stat">8/14/2</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">K/D</p>
+                                        <p class="stat" style="color:#FC5C5C">0.57</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ACS</p>
+                                        <p class="stat">148</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ADR</p>
+                                        <p class="stat">118</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">HS%</p>
+                                        <p class="stat">21.1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="match">
+                                <div class="leftside">
+                                    <div class="wonoverlay"> </div>
+                                    <div class="linething5" style="background-color:#90FF9B"> </div>
+                                    <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                    <div class="matchmapname"> Bind </div>
+                                    <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                    <div class="scorecon"> 
+                                        <div class="score">
+                                            <span class="ally">13</span> <span class="colon">:</span> <span class="enemy">8</span>
+                                        </div>
+                                        <div class="placement" style="background-color: #49212E;">
+                                            4th
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rightside">
+                                    <div class="statcon">
+                                        <p class="statname">K/D/A</p>
+                                        <p class="stat">12/11/3</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">K/D</p>
+                                        <p class="stat" style="color:#90FF9B">1.11</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ACS</p>
+                                        <p class="stat">214</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">ADR</p>
+                                        <p class="stat">123</p>
+                                    </div>
+                                    <div class="statcon">
+                                        <p class="statname">HS%</p>
+                                        <p class="stat">21.3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="daycon">
+                    <div class="datecon">
+                        Feb 1, 2024
+                    </div>
+                    <div class="matches">
+                        <div class="match">
+                            <div class="leftside">
+                                <div class="linething5" style="background-color:#FC5C5C"> </div>
+                                <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                <div class="matchmapname"> Sunset </div>
+                                <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                <div class="scorecon"> 
+                                    <div class="score">
+                                        <span class="ally">11</span> <span class="colon">:</span> <span class="enemy">13</span>
+                                    </div>
+                                    <div class="placement" style="background-color: #7f7f7f;">
+                                        2th
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightside">
+                                <div class="statcon">
+                                    <p class="statname">K/D/A</p>
+                                    <p class="stat">21/15/4</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">K/D</p>
+                                    <p class="stat" style="color:#90FF9B">1.40</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ACS</p>
+                                    <p class="stat">284</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ADR</p>
+                                    <p class="stat">165</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">HS%</p>
+                                    <p class="stat">26.8</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="match">
+                            <div class="leftside">
+                                <div class="linething5" style="background-color:#FC5C5C"> </div>
+                                <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                <div class="matchmapname"> Split </div>
+                                <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                <div class="scorecon"> 
+                                    <div class="score">
+                                        <span class="ally">12</span> <span class="colon">:</span> <span class="enemy">14</span>
+                                    </div>
+                                    <div class="placement" style="background-color: #49212E;">
+                                        4th
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightside">
+                                <div class="statcon">
+                                    <p class="statname">K/D/A</p>
+                                    <p class="stat">18/15/2</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">K/D</p>
+                                    <p class="stat" style="color:#90FF9B">1.2</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ACS</p>
+                                    <p class="stat">168</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ADR</p>
+                                    <p class="stat">128</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">HS%</p>
+                                    <p class="stat">22.0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="match">
+                            <div class="leftside">
+                                <div class="wonoverlay"> </div>
+                                <div class="linething5" style="background-color:#90FF9B"> </div>
+                                <div class="playeragent"> <img src="../imgs/valstuff/cypher.png"> </div>
+                                <div class="matchmapname"> Bind </div>
+                                <div class="playerrank"> <img src="../imgs/valstuff/D1.png"></div>
+                                <div class="scorecon"> 
+                                    <div class="score">
+                                        <span class="ally">13</span> <span class="colon">:</span> <span class="enemy">5</span>
+                                    </div>
+                                    <div class="placement" style="background-color: #5f3915;">
+                                        3rd
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightside">
+                                <div class="statcon">
+                                    <p class="statname">K/D/A</p>
+                                    <p class="stat">18/11/3</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">K/D</p>
+                                    <p class="stat" style="color:#90FF9B">1.63</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ACS</p>
+                                    <p class="stat">234</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">ADR</p>
+                                    <p class="stat">143</p>
+                                </div>
+                                <div class="statcon">
+                                    <p class="statname">HS%</p>
+                                    <p class="stat">20.1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="matchbottom">
+                    <button id="loadmatches"> Load More Matches</button>
                 </div>
             </div>
         </div>

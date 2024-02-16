@@ -1,11 +1,869 @@
-body{
-    background-color: #121212;
-  }
+body {
+  background-color: #121212;
+  width: 100%;
+}
 
-.banner{
-    width: 100%;
+.banner {
+  width: 100%;
 }
 
 img {
-    border: none;
-  }
+  border: none;
+}
+
+h1 {
+  font-family: "Tungsten";
+  font-weight: 900;
+}
+
+main {
+  background: linear-gradient(to bottom, #121212, #110833);
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+}
+
+.namecon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 35%;
+  margin: 140px 0 0 100px;
+  height: 160px;
+}
+
+.banner {
+  display: flex;
+  background-image: url(../imgs/stats/thingidk-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+}
+
+.titlethingidk{
+  width: 100%;
+  position: relative;
+}
+
+#username {
+  color: #E94D87;
+  font-size: 100px;
+}
+
+#tag {
+  font-family: "DIN Next";
+  color: #9FD8EA;
+  font-weight: 400;
+  font-size: 35px;
+  margin-left: 5px;
+  margin-top: 70px;
+}
+
+.statscon{
+ width: 100%;
+}
+
+.topstuff{
+  width: 100%;
+  height: auto;
+}
+
+.linething{
+  background-color: #E94D87;
+  height: 2px;
+  width: 100%;
+}
+
+.statscon{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainstatscon{
+  width: 98%;
+  margin: 50px 0 0 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.playercon{
+  width:300px;
+  display:flex;
+  height: 650px;
+  background-image: url("../imgs/stats/okuurin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  align-items: flex-end;
+}
+
+.crosshaircon{
+  border: white solid 2px;
+  border-radius: 15px;
+  height: 100px;
+  width: 100%;
+  background-color: #242424;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accountcon{
+  margin: 0 20px 0 20px;
+  width: 350px;
+  border: #E94D87 2px solid;
+  border-radius: 15px;
+  height: 650px;
+  background-color: #180E12;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rank{
+  background-color: #110509;
+  border: #E94D87 solid 2px;
+  border-radius: 15px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.rankcon{
+  margin-top: 50px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 210px;
+}
+
+.rankimg{
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rank img{
+  width: auto;
+  height: 80%;
+  margin-left: 10px;
+}
+
+.ranktext{
+  height: 100%;
+  font-family: "DIN Next";
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.ranktextthing{
+  color: #9FD8EA;
+  font-size: 16px;
+  margin:0
+}
+
+.ranktitle{
+  color: #E94D87;
+  font-size: 20px;
+  margin:0
+}
+
+.acttitle{
+  color:white;
+  font-size: 14px;
+  margin:0
+}
+
+.moreinfo{
+  height:auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.level{
+  font-family: "DIN Next";
+  color:white;
+  font-size: 24px;
+}
+
+.winratecon{
+  display: flex;
+  width: 100%;
+  height:25px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.winratebar{
+  height:100%;
+  width: 70%;
+  background-color: #FC5C5C;
+}
+
+.bar{
+  background-color: #26B26F;
+  height: 100%;
+  width: 53.65%;
+}
+
+.mapcon{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.maptitle{
+  font-family: "DIN Next";
+  color:white;
+  font-size: 24px;
+  margin-left: 5%;
+}
+
+.mainmap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapheader{
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding:2px
+}
+
+.mapheader{
+ font-family: "DIN Next";
+  color:white;
+  font-size: 14px; 
+}
+
+.map{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 0;
+}
+
+.overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  z-index: 0;
+}
+
+.mapname{
+  font-family: "Tungsten";
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+  z-index: 1;
+  margin-left: 5px;
+}
+
+.mapstats{
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.winrate{
+  font-family: "DIN Next";
+  color:white;
+  font-size: 16px; 
+  z-index: 1;
+}
+
+.WL{
+  font-family: "DIN Next";
+  color:white;
+  font-size: 14px; 
+  font-weight: lighter;
+  z-index: 1;
+  text-align: right;
+}
+
+.mainstats{
+  width: 1250px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trapezoid {
+  font-family: "Tungsten";
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  position: absolute;
+  margin-bottom: 2px;
+  top: -2px;
+  left: -2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding:10px
+}
+
+.trapezoid2 {
+  font-family: "Tungsten";
+  font-size: 48px;
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+  position: absolute;
+  margin-bottom: 2px;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  height: 25px;
+}
+
+.copytext{
+  color:white;
+  font-size: 14px;
+  margin: 0 5px 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.copybutton{
+  background-color: white;
+  border:none;
+  outline:none
+}
+
+.copy:hover .copytext {
+  opacity: 1;
+}
+
+.filtercon{
+  width: 550px;
+  height: 80px;
+  display: flex;
+  background-color: #110E19;
+  border: #371DBF solid 2px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.overallcon{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: #110833;
+  border: #371DBF solid 2px;
+  border-radius: 15px;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.agentcon{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  background-color: #110833;
+  border: #394DFF solid 2px;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  position:relative;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+form label{
+  font-family: "DIN Next";
+  color:#E94D87;
+  font-size: 24px;
+  padding: 10px;
+  margin: 0;
+}
+
+form select{
+  font-family: "DIN Next";
+  height: 40px;
+  background-color: #121212;
+  color: white;
+  border: white solid 1px;
+  padding: 10px;
+}
+
+.topstats{
+  height: 90px;
+  width: 95%;
+  border: #ffffff solid 2px;
+  background-color: #121212;
+  border-radius: 15px;
+  margin: 20px 2.5% 0 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.maincon{
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 22%;
+  justify-content: space-between;
+}
+
+.textcon{
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.stattitle{
+  color: white;
+  font-family: "DIN Next";
+  font-size: 16px;
+  margin: 0;
+}
+
+.mainnumber{
+  color:#394DFF;
+  font-family: "Tungsten";
+  font-weight: bold;
+  font-size: 42px;
+  margin: 0;
+}
+
+.linething2{
+  background-color: #A593FF;
+  width: 1px;
+  height: 100%;
+}
+
+.linething3{
+  background-color: #ffffff;
+  width: 2px;
+  height: 100%;
+}
+
+.linething4{
+  background-color: #E94D87;
+  width: 90%;
+  height: 2px;
+}
+
+.othercon{
+  height: 100%;
+  width: 25%;
+  display: flex;
+}
+
+.othertextcon{
+  width: 150px;
+  height: 100%;
+}
+
+.otherstats{
+  display: flex;
+  width: 95%;
+  margin: 10px 2.5% 0;
+}
+
+.othernumber{
+  color:#AD9DFF;
+  font-family: "Tungsten";
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.idktitle{
+  color: white;
+  font-family: "DIN Next";
+  font-size: 20px;
+  margin: 0;
+}
+
+.left{
+  width: 20%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+}
+
+.textcon3{
+  margin-left: 10px;
+}
+
+p{
+  margin: 0;
+}
+
+.info{
+  color: white;
+  font-family: "DIN Next";
+  font-size: 14px;
+  height: 18px;
+  text-align: right;
+  width: 80%;
+  background-color: #1B0D56;
+}
+
+.agents{
+ width: 98%;
+ height: 85%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: flex-end;
+ margin-bottom: 10px;
+}
+
+.agent{
+  height: 80%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agentimg{
+  height: 100%;
+  width: auto;
+}
+
+.agentimg img{
+  height: 100%;
+  width: auto;
+  border: white solid 2px;
+}
+
+.agentinfo{
+  width: 200px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.agenttitle{
+  width: 100%;
+}
+
+.agentname{
+  font-family: "Tungsten";
+  font-size: 32px;
+  font-weight: bold;
+  color:white
+}
+
+.agentmatch{
+  font-family: "DIN Next";
+  font-size: 16px;
+  color:white
+}
+
+.agentstats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.agentstats p{
+  color:white;
+  font-size: 16px;
+  font-family: "DIN Next";
+}
+
+.agentbutton{
+  background-color: #121212;
+  color:white;
+  font-family: "DIN Next";
+  font-size: 20px;
+  border: #394DFF solid 2px;
+  width: 200px;
+  height: 40px;
+  position:absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.agentbutton:hover{
+  background-color: #111437;
+  transition: background-color .2s;
+}
+
+.matchcon{
+  margin-top: 50px;
+  width: 98%;
+  margin-left: 1%;
+  height: auto;
+  background-color: #180E12;
+  border: #CA3E6D solid 2px;
+  border-radius: 25px;
+}
+
+.matchbottom{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2E151D;
+  border-radius: 0 0 25px 25px;
+}
+
+#loadmatches{
+  color:white;
+  font-family: "Tungsten";
+  font-weight: bold;
+  font-size: 32px;
+  background-color: #CA3E6D;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border:none;
+}
+
+#loadmatches:hover{
+  background-color: #ffffff;
+color: #CA3E6D;
+  transition: background-color .2s;
+}
+
+.daycon{
+  width: 100%;
+  height: auto;
+}
+
+.datecon{
+  color:white;
+  font-family: "Tungsten";
+  font-size: 42px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  background-color: #2E151D;
+  height: 75px;
+}
+
+.matches{
+  width: 100%;
+  height: auto;
+  background-color: #180E12;
+}
+
+.match{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #180E12;
+  align-items: center;
+}
+
+.leftside{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.linething5{
+  height: 90%;
+  width: 2px;
+}
+
+.playeragent{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  z-index: 1;
+}
+
+.playeragent img{
+  height: 80%;
+  width: auto;
+}
+
+.matchmapname{
+  color:white;
+  font-family: "Tungsten";
+  font-size: 42px;
+  font-weight: bold;
+  width: 170px;
+  z-index: 1;
+}
+
+.playerrank{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.playerrank img{
+  height: 70%;
+  width: auto;
+}
+
+.scorecon{
+  height: 100%;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score{
+  height: 50px;
+}
+
+.score span{
+  font-family: "DIN Next";
+  font-size: 42px;
+}
+
+.ally{
+  color:#90FF9B
+}
+
+.colon{
+  color:white;
+}
+
+.enemy{
+  color:#FD4556
+}
+
+.placement{
+  width: 80px;
+  height: 20px;
+  color:white;
+  font-family: "DIN Next";
+  font-size: 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.rightside{
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statcon{
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.statname{
+  font-family: "DIN Next";
+  font-size: 20px;
+  text-align: right;
+}
+
+.stat{
+  font-family: "DIN Next";
+  font-size: 32px;
+  text-align: right;
+}
+
+.wonoverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(to right, rgba(144, 255, 155, 0.5), rgba(144, 255, 155, 0));
+}

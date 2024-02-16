@@ -1,11 +1,11 @@
 function login() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+    const username = document.getElementById('username');
+    const password = document.getElementById('password');
     const error = document.getElementById('error');
   
-    if (username === 'Okuurin' && password === 'verysafepassword') {
-        window.location.href = "htps://youtube.com"
+    if (username.value === 'Okuurin' && password.value === 'verysafepassword') {
+        window.location.href = "../html/stats.html"
     } else {
-      error.classList.add('visible');
+      error.style.display = "block"
     }
   }
