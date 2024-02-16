@@ -218,7 +218,10 @@ h2{
   .leftcon {
     width: 40%;
     height: 100%;
-    background-color: #E94D87;
+    background-image: url(../imgs/valstuff/iso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
     z-index: 2;
   }
 
