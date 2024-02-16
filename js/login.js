@@ -4,7 +4,7 @@ function login() {
     const error = document.getElementById('error');
   
     if (username.value === 'Okuurin' && password.value === 'verysafepassword') {
-        window.location.href = "html/stats.html"
+        window.location.href = "stats.html"
     } else {
       error.style.display = "block"
     }
