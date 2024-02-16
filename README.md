@@ -16,12 +16,12 @@ Figma Wireframe: https://www.figma.com/file/htcmsnsBn7lfILi9Xfp4sY/IP_ID?type=de
 ### Existing Features
 - Performance: View your statistics and match history as well as many other small things.
 - Leaderboard: View your friends-only leaderboard to compare you and your friends.
-- Contract: Complete your contract requirements by completing a quiz when needed.
 - (DEV): Add/remove users from the restdb.io database
 
 ### Features Left to Implement
 - Search Feature - Search any users on the database
 - View matches - View specific match details in the match history
+- Contract: Complete your contract requirements by completing a quiz when needed.
 
 ## Technologies Used
 
