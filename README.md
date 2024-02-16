@@ -3,6 +3,7 @@
 This 
 
 Github Pages link: https://okuurin2.github.io/ZaLobotomy/
+To log in use "Okuurin" and "verysafepassword"
  
 ## Design Process
  
