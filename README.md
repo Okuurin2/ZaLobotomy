@@ -1,8 +1,9 @@
 # Kingdom Laboratories
 
-This 
+This website serve as a program for players to view their performance and others as well as many other features. The website also serves as one of the requirements you have to complete when a player does a Contract (More details below). As this project is based on Valorant, many things are based on official branding and current works from Riot Games. 
 
 Github Pages link: https://okuurin2.github.io/ZaLobotomy/
+
 To log in use "Okuurin" and "verysafepassword"
  
 ## Design Process
