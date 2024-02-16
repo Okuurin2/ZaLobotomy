@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var Agent = {
-    "Cypher":"../imgs/valstuff/cypher.png",
-    "Fade":"../imgs/valstuff/fade.png",
-    "Brimstone":"../imgs/valstuff/brimstone.png"
+    "Cypher":"imgs/valstuff/cypher.png",
+    "Fade":"imgs/valstuff/fade.png",
+    "Brimstone":"imgs/valstuff/brimstone.png"
 }
 
 const ranks = {
@@ -38,22 +38,22 @@ const ranks = {
   };
   
   const ranksimgs = {
-    1:"../imgs/valstuff/unranked.png",
-    2 : "../imgs/valstuff/I1.png",
-    5 : "../imgs/valstuff/B1.png",
-    9 : "../imgs/valstuff/S2.png",
-    11:"../imgs/valstuff/G1.png",
-    12:"../imgs/valstuff/G2.png",
-    13:"../imgs/valstuff/G3.png",
-    15:"../imgs/valstuff/P2.png",
-    16:"../imgs/valstuff/P3.png",
-    17:"../imgs/valstuff/D1.png",
-    18:"../imgs/valstuff/D2.png",
-    21:"../imgs/valstuff/A2.png",
-    22:"../imgs/valstuff/A3.png",
-    23:"../imgs/valstuff/Im1.png",
-    25:"../imgs/valstuff/Im3.png",
-    26:"../imgs/valstuff/R.png",
+    1:"imgs/valstuff/unranked.png",
+    2 : "imgs/valstuff/I1.png",
+    5 : "imgs/valstuff/B1.png",
+    9 : "imgs/valstuff/S2.png",
+    11:"imgs/valstuff/G1.png",
+    12:"imgs/valstuff/G2.png",
+    13:"imgs/valstuff/G3.png",
+    15:"imgs/valstuff/P2.png",
+    16:"imgs/valstuff/P3.png",
+    17:"imgs/valstuff/D1.png",
+    18:"imgs/valstuff/D2.png",
+    21:"imgs/valstuff/A2.png",
+    22:"imgs/valstuff/A3.png",
+    23:"imgs/valstuff/Im1.png",
+    25:"imgs/valstuff/Im3.png",
+    26:"imgs/valstuff/R.png",
   };
 
 function loadMatches(total){

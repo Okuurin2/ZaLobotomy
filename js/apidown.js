@@ -6,22 +6,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var cards = {
-    "CyphCard": {"src" :"../imgs/valstuff/cyphcard.jpg","x":"10%"},
-    "YoruCard": {"src" :"../imgs/valstuff/yorucard.png","x":"10%"},
-    "IsoCard": {"src" :"../imgs/valstuff/isocard.png","x":"0%"},
-    "OmenCard": {"src" :"../imgs/valstuff/omencard.png","x":"0%"},
-    "ValCard": {"src" :"../imgs/valstuff/valcard.png","x":"25%"},
-    "KuroCard": {"src" :"../imgs/valstuff/kurocard.png","x":"20%"},
-    "SovaCard": {"src" :"../imgs/valstuff/sovacard.png","x":"30%"},
-    "FadeCard": {"src" :"../imgs/valstuff/fadecard.png","x":"50%"},
-    "AstraCard": {"src" :"../imgs/valstuff/astracard.png","x":"40%"},
-    "ChamberCard":{"src" :"../imgs/valstuff/chamcard.png","x":"100%"},
-    "BreezeCard": {"src" :"../imgs/valstuff/breezecard.png","x":"20%"},
-    "SunsetCard":{"src" :"../imgs/valstuff/sunsetcard.png","x":"30%"},
-    "SmiteCard": {"src" :"../imgs/valstuff/smitecard.png","x":"15%"},
-    "PenguinCard":{"src" :"../imgs/valstuff/pengcard.png","x":"30%"},
-    "NoLimitsCard":{"src" :"../imgs/valstuff/nolimcard.png","x":"10%"},
-    "ArcaneCard":{"src" :"../imgs/valstuff/arcanecard.png","x":"50%"},
+    "CyphCard": {"src" :"imgs/valstuff/cyphcard.jpg","x":"10%"},
+    "YoruCard": {"src" :"imgs/valstuff/yorucard.png","x":"10%"},
+    "IsoCard": {"src" :"imgs/valstuff/isocard.png","x":"0%"},
+    "OmenCard": {"src" :"imgs/valstuff/omencard.png","x":"0%"},
+    "ValCard": {"src" :"imgs/valstuff/valcard.png","x":"25%"},
+    "KuroCard": {"src" :"imgs/valstuff/kurocard.png","x":"20%"},
+    "SovaCard": {"src" :"imgs/valstuff/sovacard.png","x":"30%"},
+    "FadeCard": {"src" :"imgs/valstuff/fadecard.png","x":"50%"},
+    "AstraCard": {"src" :"imgs/valstuff/astracard.png","x":"40%"},
+    "ChamberCard":{"src" :"imgs/valstuff/chamcard.png","x":"100%"},
+    "BreezeCard": {"src" :"imgs/valstuff/breezecard.png","x":"20%"},
+    "SunsetCard":{"src" :"imgs/valstuff/sunsetcard.png","x":"30%"},
+    "SmiteCard": {"src" :"imgs/valstuff/smitecard.png","x":"15%"},
+    "PenguinCard":{"src" :"imgs/valstuff/pengcard.png","x":"30%"},
+    "NoLimitsCard":{"src" :"imgs/valstuff/nolimcard.png","x":"10%"},
+    "ArcaneCard":{"src" :"imgs/valstuff/arcanecard.png","x":"50%"},
 }
 
 const ranks = {
@@ -54,22 +54,22 @@ const ranks = {
   };
 
   const ranksimgs = {
-    1:"../imgs/valstuff/unranked.png",
-    2 : "../imgs/valstuff/I1.png",
-    5 : "../imgs/valstuff/B1.png",
-    9 : "../imgs/valstuff/S2.png",
-    11:"../imgs/valstuff/G1.png",
-    12:"../imgs/valstuff/G2.png",
-    13:"../imgs/valstuff/G3.png",
-    15:"../imgs/valstuff/P2.png",
-    16:"../imgs/valstuff/P3.png",
-    17:"../imgs/valstuff/D1.png",
-    18:"../imgs/valstuff/D2.png",
-    21:"../imgs/valstuff/A2.png",
-    22:"../imgs/valstuff/A3.png",
-    23:"../imgs/valstuff/Im1.png",
-    25:"../imgs/valstuff/Im3.png",
-    26:"../imgs/valstuff/R.png",
+    1:"imgs/valstuff/unranked.png",
+    2 : "imgs/valstuff/I1.png",
+    5 : "imgs/valstuff/B1.png",
+    9 : "imgs/valstuff/S2.png",
+    11:"imgs/valstuff/G1.png",
+    12:"imgs/valstuff/G2.png",
+    13:"imgs/valstuff/G3.png",
+    15:"imgs/valstuff/P2.png",
+    16:"imgs/valstuff/P3.png",
+    17:"imgs/valstuff/D1.png",
+    18:"imgs/valstuff/D2.png",
+    21:"imgs/valstuff/A2.png",
+    22:"imgs/valstuff/A3.png",
+    23:"imgs/valstuff/Im1.png",
+    25:"imgs/valstuff/Im3.png",
+    26:"imgs/valstuff/R.png",
   };
 
 function getUsers(filter) {
@@ -90,7 +90,8 @@ function getUsers(filter) {
         {"Username":"Vegeta", "Tag":"3892", "Rank":"B1", "Player_Card":"ChamberCard", "Wins":11,"Losses":10,"WinRate":52.38, "Hours":13,"KDA":0.87,"ACS":156,"HSR":15.9},
         {"Username":"amonguslover69", "Tag":"sus", "Rank":"S2", "Player_Card":"BreezeCard", "Wins":13,"Losses":15,"WinRate":46.42, "Hours":20,"KDA":0.91,"ACS":187,"HSR":19.9},
         {"Username":"stickingoutyour", "Tag":"gyatt", "Rank":"D2", "Player_Card":"SmiteCard", "Wins":10,"Losses":11,"WinRate":47.61, "Hours":11,"KDA":1.22,"ACS":242,"HSR":22.4},
-        {"Username":"한국인", "Tag":"9999", "Rank":"G1", "Player_Card":"NoLimitsCard", "Wins":30,"Losses":25,"WinRate":54.54, "Hours":48,"KDA":1.01,"ACS":203,"HSR":21.1},
+        {"Username":"한국인", "Tag":"9999", "Rank":"G1", "Player_Card":"NoLimitsCard", "Wins":30,"Losses":25,"WinRate":54.54, "Hours":48,"KDA":1.10,"ACS":203,"HSR":21.1},
+        {"Username":"Dedwad", "Tag":"nutty", "Rank":"I1", "Player_Card":"ArcaneCard", "Wins":9,"Losses":18,"WinRate":32.1, "Hours":14,"KDA":1.01,"ACS":220,"HSR":22.6},
     ]
 
     let content = "";
