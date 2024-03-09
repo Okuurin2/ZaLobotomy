@@ -89,7 +89,6 @@ function getUsers(filter) {
       .then(response => response.json())
       .then(response => {
         let content = "";
-        console.log(response)
         for (var i =0 ;i < response.length && i < limit;i++) {
             if (ranks[response[i].Rank]) {
                 response[i].Rank = ranks[response[i].Rank]
